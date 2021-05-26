@@ -83,7 +83,6 @@ ORDER BY "Last Name Counts" DESC;
 
 
 SELECT * FROM employees;
-
 SELECT* 
 FROM employees
 WHERE emp_no = 499942;
