@@ -62,7 +62,6 @@ ON c.dept_no=d.dept_no
 WHERE dept_name='Sales';
 
 --List employee number, last name, first name, and department name for all employees in the sales department and development departments
-
 SELECT emp_no,last_name, first_name, dept_name
 FROM departments AS c
 RIGHT JOIN (
